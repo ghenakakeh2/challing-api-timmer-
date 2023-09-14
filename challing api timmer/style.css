@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    font-family: 'Aref Ruqaa', serif;
+}
+.container{
+    background: url(./imges/background.png);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.date{
+    
+    text-align: right;
+    position: absolute;
+    top: 18%;
+    right: 10%;
+    font-size: 40px;
+    color: #fff;
+    padding: 20px 40px;
+    border-bottom: 3px solid #fff;
+}
+.timming{
+ font-weight: bold;
+    width: 300px;
+    color: #fff;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 12%; 
+   
+}
+
+.timming ul li{
+   list-style: none;
+   border: 1px solid;
+   padding: 15px 30px;
+   margin-bottom: 10px;
+   font-size: 30px;
+   background-color: #ffffff17;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+
+}
+.country{
+   
+   width: 20%;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    text-align: right;
+    transform: translateY(-50%);
+
+   
+
+}
+.country label{
+    padding: 20px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.country select{
+    padding: 10px;
+    width: 90%;
+    margin-right: 0;
+    margin-top: 20px;
+}
+.country select option{
+
+    font-size: 20px;
+}
+#submit{
+
+margin-top: 30px;
+padding: 10px 20px;
+font-size: 20px;
+border-radius: 10px;
+
+}

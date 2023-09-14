@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;700&family=Reem+Kufi:wght@400;600&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="date">
+           <span id="day"></span>
+           <span id="month"></span>
+           <span id="yaer"></span>
+        </div>
+<div class="timming">
+<ul >
+    <li><span class="time">1:1</span><span class="title"> الفجر</span></li>
+    <li><span class="time">1:10</span><span class="title"> الشروق</span></li>
+    <li><span class="time">1:10</span><span class="title">الظهر</span></li>
+    <li><span class="time">1:10</span><span class="title">العصر</span></li>
+    <li><span class="time">1:10</span><span class="title">المغرب</span></li>
+    <li><span class="time">1:10</span><span class="title">العشاء</span></li>
+</ul>
+</div>
+<div class="country">
+<label>اختر مدينتك ؟</label>
+<select name="city" id="city">
+    <option value="Aleppo" selected>Aleppo</option>
+    <option value="Damascus" >Damascus</option>
+    <option value="Daraa">Daraa</option>
+    <option value=">Deir ez-Zor">Deir ez-Zor</option>
+    <option value="Hama">Hama</option>
+    <option value="Latakia">Latakia</option>
+    <option value="Tartus">Tartus</option>
+    <option value="As-Suwayda">As-Suwayda</option>
+
+
+
+
+</select>
+<input type="submit" id="submit">
+</div>
+
+    </div>
+
+
+<script src="./script.js"></script>
+</body>
+</html>
